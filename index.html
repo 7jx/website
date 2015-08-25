@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb18030" />
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>我的网站</title>
-<meta name="description" content="北京土特产是以名优土特产为主的专业网站，提供礼盒系列 名优高端 散装商品 野生山珍特产品，为你带来质优价廉产品" />
-<meta name="keywords" content="土特产 礼盒系列 休闲食品" />
+<title>Jie Xu Shop</title>
+<meta name="description" content="Best Seller" />
+<meta name="keywords" content="Shop by Department,Savings Catcher,Rollbacks" />
 <link href="http://localhost/web_top/templets/default/images/web_top.css" rel="stylesheet" type="text/css" />
 <script language="javascript" type="text/javascript" src="/web_top/include/dedeajax2.js"></script>
 <script language="javascript" type="text/javascript" src="/web_top/images/js/j.js" ></script>
@@ -41,20 +41,20 @@
      <div id="_userlogin">
       
       
-      <p>您好，欢迎光临本店！<a href="http://localhost/web_top/member/login.php">&nbsp;登录</a>&nbsp;&nbsp;&nbsp; <a href="http://localhost/web_top/member/index_do.php?fmdo=user&dopost=regnew">免费注册</a></p></div></dd>
+      <p>Hi,welcome！<a href="http://localhost/web_top/member/login.php">&nbsp;Sign In</a>&nbsp;&nbsp;&nbsp; <a href="http://localhost/web_top/member/index_do.php?fmdo=user&dopost=regnew">Register</a></p></div></dd>
       <script language="javascript" type="text/javascript">CheckLogin();</script>
       
       <img src="http://localhost/web_top/templets/default/images/arc_arc_07.jpg" width="639" height="19" /> </div>
     <div class="menu"> 
     <span class="menu_l"> 
-    <a href="http://localhost/web_top">首页</a><b></b> 
-    <a href="http://localhost/web_top/a/bgs/2014/0523/46.html">公司简介</a><b></b> 
-    <a href="http://localhost/web_top/newshop/index_11_1.html">新品上架</a> <b></b>
-    <a href="http://localhost/web_top/freelist/index_12_1.html">礼品系列</a><b></b>
-     <a href="http://localhost/web_top/freelist/index_13_1.html">简装商品</a><b></b> 
-     <a href="http://localhost/web_top/freelist/index_14_1.html">打折促销</a><b></b> 
-     <a href="http://localhost/web_top/a/gx/">营养功效</a> <b></b>
-     <a href="http://localhost/web_top/bbs">公益bbs</a> </span> 
+    <a href="http://localhost/web_top">Home</a><b></b> 
+    <a href="http://localhost/web_top/a/bgs/2014/0523/46.html">About Company</a><b></b> 
+    <a href="http://localhost/web_top/newshop/index_11_1.html">New</a> <b></b>
+    <a href="http://localhost/web_top/freelist/index_12_1.html">Gifts</a><b></b>
+     <a href="http://localhost/web_top/freelist/index_13_1.html">Product</a><b></b> 
+     <a href="http://localhost/web_top/freelist/index_14_1.html">Clearance</a><b></b> 
+     <a href="http://localhost/web_top/a/gx/">Health</a> <b></b>
+     <a href="http://localhost/web_top/bbs">BBS</a> </span> 
      <span class="menu_r"></span> 
     </div>
   </div>
@@ -83,15 +83,15 @@ netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
 alert( "该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true" ); 
 } 
 } 
-if(window.confirm("你确定要设置"+url+"为首页吗？")==1){ 
+if(window.confirm("Set"+url+"Homepage")==1){ 
 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
 prefs.setCharPref('browser.startup.homepage',url); 
 } 
 } 
 } 
 </script> 
-<a href="javascript:void(null)" onClick="setHome('http://localhost/web_top/index.php?upcache=1#');">设为首页</a> &nbsp;&Igrave;&nbsp;<a href="javascript:addBookmark('脚本之家','http://localhost/web_top/index.php?upcache=1#')">加入收藏</a> 
-&nbsp;&Igrave;&nbsp;  <a href="http://localhost/web_top/data/sitemap.html">网络地图</a><br />
+<a href="javascript:void(null)" onClick="setHome('http://localhost/web_top/index.php?upcache=1#');">set homepage</a> &nbsp;&Igrave;&nbsp;<a href="javascript:addBookmark('脚本之家','http://localhost/web_top/index.php?upcache=1#')">add to cart</a> 
+&nbsp;&Igrave;&nbsp;  <a href="http://localhost/web_top/data/sitemap.html">map</a><br />
 <iframe src="/web_top/plus/car1.php" frameborder="0" width="260" height="25"></iframe>
 </div>
 </div>
@@ -115,13 +115,13 @@ prefs.setCharPref('browser.startup.homepage',url);
   
     <form action="" method="">
       <input name="" type="text" id="s_title"/>
-      <input name="button" type="button" value="搜产品" id="button" class="shop"onclick="search_shop();"/>
-      <input name="button"type="button" value="搜文章" id="button"  class="arc" onclick="search_arc();"/>
+      <input name="button" type="button" value="search sale" id="button" class="shop"onclick="search_shop();"/>
+      <input name="button"type="button" value="search bbs" id="button"  class="arc" onclick="search_arc();"/>
     </form>
-    <a href="http://localhost/web_top/a/search.html" target="_blank" class="goji_s">高级搜索</a>
+    <a href="http://localhost/web_top/a/search.html" target="_blank" class="goji_s">Advance search</a>
     <div class="gundong">
       <marquee onMouseOut="this.start()" onMouseOver="this.stop()">
-      <a href="#">滚动的文字内容</a>
+      <a href="#">Advertisement</a>
       </marquee>
     </div>
   </div>
@@ -132,57 +132,57 @@ prefs.setCharPref('browser.startup.homepage',url);
   <div class="l">
     <h2></h2>
     <div class="fenlei_menu">
-      <h3>按商品分类</h3>
+      <h3>Shop by Department</h3>
         <div style="height:auto;overflow:hidden;padding-bottom:7px;">
       <ul>
       
-<li><a href='/web_top/a/sp/gd/'>名优高端</a> </li>
+<li><a href='/web_top/a/sp/gd/'>Baby</a> </li>
 
-<li><a href='/web_top/a/sp/dq/'>蛋禽肉</a> </li>
+<li><a href='/web_top/a/sp/dq/'>car seats</a> </li>
 
-<li><a href='/web_top/a/sp/gs/'>果蔬新鲜</a> </li>
+<li><a href='/web_top/a/sp/gs/'>Feeding</a> </li>
 
-<li><a href='/web_top/a/s/jt/'>酒糖茶</a> </li>
+<li><a href='/web_top/a/s/jt/'>Nursery Funiture</a> </li>
 
-<li><a href='/web_top/a/s/gh/'>粮油干货</a> </li>
+<li><a href='/web_top/a/s/gh/'>Gear</a> </li>
 
-<li><a href='/web_top/a/s/jk/'>健康食品</a> </li>
+<li><a href='/web_top/a/s/jk/'>Strollers</a> </li>
 
-<li><a href='/web_top/a/s/xx/'>休闲食品</a> </li>
+<li><a href='/web_top/a/s/xx/'>Diapering</a> </li>
 
-<li><a href='/web_top/a/s/yc/'>特产药材</a> </li>
+<li><a href='/web_top/a/s/yc/'>Bedding</a> </li>
 
-<li><a href='/web_top/a/s/yj/'>有机产品</a> </li>
+<li><a href='/web_top/a/s/yj/'>Toddler</a> </li>
 
-<li><a href='/web_top/a/s/ys/'>野生山珍</a> </li>
+<li><a href='/web_top/a/s/ys/'>Health</a> </li>
 
-<li><a href='/web_top/a/s/sz/'>散装商品</a> </li>
+<li><a href='/web_top/a/s/sz/'>Toys</a> </li>
 
-<li><a href='/web_top/a/s/sz/'> 散装商品</a> </li>
+<li><a href='/web_top/a/s/sz/'> Back to school</a> </li>
 
-        <li class="more"><a href="http://localhost/web_top/a/sp/" >&gt&gt查看全部商品 </a></li>
+        <li class="more"><a href="http://localhost/web_top/a/sp/" >&gt&gtMore </a></li>
       </ul>
       <div class="clear"></div>
       </div>
       <p class="line1"></p>
-      <h3>按地区分类</h3>
+      <h3>All Department</h3>
       <div style="height:auto;overflow:hidden;padding-bottom:7px;">
       <ul>
        
         
-<li><a href='/web_top/a/dq/hb/'>华北地区</a> </li>
+<li><a href='/web_top/a/dq/hb/'>Feeding</a> </li>
 
-<li><a href='/web_top/a/dq/db/'>东北地区</a> </li>
+<li><a href='/web_top/a/dq/db/'>Baby Formula</a> </li>
 
-<li><a href='/web_top/a/dq/hd/'>华东地区</a> </li>
+<li><a href='/web_top/a/dq/hd/'>Bottle Feeding</a> </li>
 
-<li><a href='/web_top/a/dq/hn/'>华南地区</a> </li>
+<li><a href='/web_top/a/dq/hn/'>Brease Feeding</a> </li>
 
-<li><a href='/web_top/a/dq/xb/'>西北地区</a> </li>
+<li><a href='/web_top/a/dq/xb/'>Baby food</a> </li>
 
-<li><a href='/web_top/a/dq/hz/'>华中地区</a> </li>
+<li><a href='/web_top/a/dq/hz/'>Toddler Feeding</a> </li>
 
-<li><a href='/web_top/a/dq/xn/'>西南地区</a> </li>
+<li><a href='/web_top/a/dq/xn/'>Diaper bags</a> </li>
 
       
         
@@ -197,16 +197,16 @@ prefs.setCharPref('browser.startup.homepage',url);
    <img src="http://localhost/web_top/templets/default/images/index_77.jpg" width="146" height="27" /> 
     <!--插入优秀供应商-->
     <h2 class="gongyingsang">
-      <p><a href="http://localhost/web_top/a/gys/">>>更多</a></p>
+      <p><a href="http://localhost/web_top/a/gys/">>>more</a></p>
     </h2>
     <ul class="ul_gys">
     
-    <li><a href='/web_top/a/gys/2014/0524/63.html'>供应商4</a></li>
-<li><a href='/web_top/a/gys/2014/0524/62.html'>供应商3</a></li>
-<li><a href='/web_top/a/gys/2014/0524/61.html'>供应商2</a></li>
-<li><a href='/web_top/a/gys/2014/0524/60.html'>供应商1</a></li>
-<li><a href='/web_top/a/gys/2014/0521/41.html'>中华人民共和国</a></li>
-<li><a href='/web_top/a/gys/2014/0521/40.html'>中华人民共和国</a></li>
+    <li><a href='/web_top/a/gys/2014/0524/63.html'>Cosco</a></li>
+<li><a href='/web_top/a/gys/2014/0524/62.html'>Harmony</a></li>
+<li><a href='/web_top/a/gys/2014/0524/61.html'>Graco</a></li>
+<li><a href='/web_top/a/gys/2014/0524/60.html'>Evenflo</a></li>
+<li><a href='/web_top/a/gys/2014/0521/41.html'>Safety</a></li>
+<li><a href='/web_top/a/gys/2014/0521/40.html'>Disney</a></li>
    
     </ul>
   </div>
@@ -257,21 +257,21 @@ document.write('<embed src="/web_top/templets/default/images/bcastr3.swf" wmode=
   
   <!--最新上架商品-->
   <div class="new_shop">
-    <h2>最新上架商品</h2><p><a href="http://localhost/web_top/a/sp/">查看更多>></a></p>
+    <h2>New</h2><p><a href="http://localhost/web_top/a/sp/">More>></a></p>
     <div class="new_shop_list">
     <ul>
     <li><a href="/web_top/a/sp/2014/0521/20.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="110" height="107" /></a>
-    <a href='/web_top/a/sp/2014/0521/20.html'>产品12</a><br/>
-    会员价:<b>0元</b></li>
+    <a href='/web_top/a/sp/2014/0521/20.html'>carseat</a><br/>
+    online price<b>$180</b></li>
 <li><a href="/web_top/a/sp/2014/0521/9.html"><img src="/web_top/uploads/140521/1-1405210A032223.jpg" width="110" height="107" /></a>
-    <a href='/web_top/a/sp/2014/0521/9.html'>产品1</a><br/>
-    会员价:<b>80元</b></li>
+    <a href='/web_top/a/sp/2014/0521/9.html'>carseat</a><br/>
+    online price<b>$180</b></li>
 <li><a href="/web_top/a/sp/2014/0521/19.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="110" height="107" /></a>
-    <a href='/web_top/a/sp/2014/0521/19.html'>产品11</a><br/>
-    会员价:<b>0元</b></li>
+    <a href='/web_top/a/sp/2014/0521/19.html'>carseat</a><br/>
+    online price<b>$180</b></li>
 <li><a href="/web_top/a/sp/2014/0521/18.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="110" height="107" /></a>
-    <a href='/web_top/a/sp/2014/0521/18.html'>产品10</a><br/>
-    会员价:<b>0元</b></li>
+    <a href='/web_top/a/sp/2014/0521/18.html'>carseat</a><br/>
+    online price<b>$180</b></li>
 
     
     </ul>
@@ -280,21 +280,21 @@ document.write('<embed src="/web_top/templets/default/images/bcastr3.swf" wmode=
   </div>
   <!--人气热卖商品-->
  <div class="hot_shop">
-    <h2>人气热卖商品</h2><p><a href="http://localhost/web_top/a/sp/">查看更多>></a></p>
+    <h2>Best Seller</h2><p><a href="http://localhost/web_top/a/sp/">more>></a></p>
     <div class="hot_shop_list">
     <ul>
-    <li><a href="/web_top/a/sp/2014/0521/18.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/18.html'>产品10</a><br/>
-    市场价:<span>元</span><br/>
-    会员价:<b>0元</b></li>
-<li><a href="/web_top/a/sp/2014/0521/14.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/14.html'>产品6</a><br/>
-    市场价:<span>元</span><br/>
-    会员价:<b>0元</b></li>
-<li><a href="/web_top/a/sp/2014/0521/17.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/17.html'>产品9</a><br/>
-    市场价:<span>元</span><br/>
-    会员价:<b>0元</b></li>
-<li><a href="/web_top/a/sp/2014/0521/19.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/19.html'>产品11</a><br/>
-    市场价:<span>元</span><br/>
-    会员价:<b>0元</b></li>
+    <li><a href="/web_top/a/sp/2014/0521/18.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/18.html'>car seat</a><br/>
+    store price<span>$230</span><br/>
+   online price<b>$180</b></li>
+<li><a href="/web_top/a/sp/2014/0521/14.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/14.html'>car seat</a><br/>
+    store price<span>$230</span><br/>
+   online price<b>$180</b></li>
+<li><a href="/web_top/a/sp/2014/0521/17.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/17.html'>car seat</a><br/>
+    store price<span>$230</span><br/>
+   online price<b>$180</b></li>
+<li><a href="/web_top/a/sp/2014/0521/19.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="92" height="92" /></a><a href='/web_top/a/sp/2014/0521/19.html'>car seat</a><br/>
+    store price<span>$230</span><br/>
+   online price<b>$180</b></li>
 
     </ul>
     <div class="clear"></div>
@@ -307,10 +307,10 @@ document.write('<embed src="/web_top/templets/default/images/bcastr3.swf" wmode=
   <div class="dongtai">
   <h2><a href="#"></a></h2>
   <ul>
-  <li><a href='/web_top/a/dt/2014/0521/36.html'>最新活动动态4</a></li>
-<li><a href='/web_top/a/dt/2014/0521/35.html'>最新活动动态3</a></li>
-<li><a href='/web_top/a/dt/2014/0521/34.html'>最新活动动态2</a></li>
-<li><a href='/web_top/a/dt/2014/0521/33.html'>最新活动动态1</a></li>
+  <li><a href='/web_top/a/dt/2014/0521/36.html'>Weekly Ad1</a></li>
+<li><a href='/web_top/a/dt/2014/0521/35.html'>Weekly Ad2</a></li>
+<li><a href='/web_top/a/dt/2014/0521/34.html'>Weekly Ad3</a></li>
+<li><a href='/web_top/a/dt/2014/0521/33.html'>Weekly Ad4</a></li>
 
   </ul>
   </div>
@@ -321,18 +321,38 @@ document.write('<embed src="/web_top/templets/default/images/bcastr3.swf" wmode=
   <h2><a href="#"></a>  
   <ul>
   <script>var a=0;</script>
-   <li class="huangse"><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/20.html'>产品12</a></li>
-<li class="huangse"><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/9.html'>产品1</a></li>
-<li class="huangse"><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/19.html'>产品11</a></li>
+   <li class="huangse"><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/20.html'>Maxwell House 
+
+coffee</a></li>
+<li class="huangse"><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/9.html'>Maxwell House 
+
+coffee</a></li>
+<li class="huangse"><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/19.html'>Maxwell House 
+
+coffee</a></li>
 
   
-   <li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/18.html'>产品10</a></li>
-<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/17.html'>产品9</a></li>
-<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/15.html'>产品7</a></li>
-<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/16.html'>产品8</a></li>
-<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/14.html'>产品6</a></li>
-<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/13.html'>产品5</a></li>
-<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/12.html'>产品4</a></li>
+   <li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/18.html'>Maxwell House 
+
+coffee</a></li>
+<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/17.html'>Maxwell House 
+
+coffee</a></li>
+<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/15.html'>Maxwell House 
+
+coffee</a></li>
+<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/16.html'>Maxwell House 
+
+coffee</a></li>
+<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/14.html'>Maxwell House 
+
+coffee</a></li>
+<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/13.html'>Maxwell House 
+
+coffee</a></li>
+<li ><b><script>a++;document.write(a);</script></b><a href='/web_top/a/sp/2014/0521/12.html'>Maxwell House 
+
+coffee</a></li>
 
  
   
@@ -353,83 +373,83 @@ document.write('<embed src="/web_top/templets/default/images/bcastr3.swf" wmode=
 </div>
 <!--插入名优商品展示-->
 <div class="mingyouzhanshi">
-<h2><span><a href="http://localhost/web_top/freelist/index_15_1.html">>>更多</a></span>名优商品展示</h2>
+<h2><span><a href="http://localhost/web_top/freelist/index_15_1.html">>>more</a></span>Best Seller</h2>
 <ul><li><a href="/web_top/a/sp/2014/0521/20.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/20.html'>产品12</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/20.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/9.html"><img src="/web_top/uploads/140521/1-1405210A032223.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/9.html'>产品1</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>80元</strong></li>
+<a href='/web_top/a/sp/2014/0521/9.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/19.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/19.html'>产品11</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/19.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/18.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/18.html'>产品10</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/18.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/17.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/17.html'>产品9</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/17.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/15.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/15.html'>产品7</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/15.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/16.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/16.html'>产品8</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/16.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/14.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/14.html'>产品6</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/14.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/13.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/13.html'>产品5</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/13.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/12.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/12.html'>产品4</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/12.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/11.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/11.html'>产品3</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>200元</strong></li>
+<a href='/web_top/a/sp/2014/0521/11.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/10.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="122" height="122" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/10.html'>产品2</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/10.html'>Maxwell House coffee</a><br/>
+store price：<b>$2.96 </b><br/>
+online Prive：<strong>$2.00</strong></li>
 
 </ul>
 </div>
 <!--插入特价商品-->
 <div class="tejia">
 <div class="tejia_list">
-<h2><b style="diaplay:block;float:left;">打折促销</b><span><a href="http://localhost/web_top/freelist/index_14_1.html">>>更多</a></span></h2>
+<h2><b style="diaplay:block;float:left;">Clearance</b><span><a href="http://localhost/web_top/freelist/index_14_1.html">>>more</a></span></h2>
 <ul>
 <li><a href="/web_top/a/sp/2014/0521/20.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="121" height="121" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/20.html'>产品12</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/20.html'>Faded glory Women's Cotton rib Tank</a><br/>
+store price：<b>$3.94</b><br/>
+online price：<strong>$2.5</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/9.html"><img src="/web_top/uploads/140521/1-1405210A032223.jpg" width="121" height="121" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/9.html'>产品1</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>80元</strong></li>
+<a href='/web_top/a/sp/2014/0521/9.html'>Faded glory Women's Cotton rib Tank</a><br/>
+store price：<b>$3.94</b><br/>
+online price：<strong>$2.5</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/19.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="121" height="121" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/19.html'>产品11</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/19.html'>Faded glory Women's Cotton rib Tank</a><br/>
+store price：<b>$3.94</b><br/>
+online price：<strong>$2.5</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/18.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="121" height="121" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/18.html'>产品10</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/18.html'>Faded glory Women's Cotton rib Tank</a><br/>
+store price：<b>$3.94</b><br/>
+online price：<strong>$2.5</strong></li>
 <li><a href="/web_top/a/sp/2014/0521/17.html"><img src="/web_top/uploads/140521/1-140521011525c2.jpg" width="121" height="121" /></a><br/>
-<a href='/web_top/a/sp/2014/0521/17.html'>产品9</a><br/>
-市场价：<b>元 </b><br/>
-会员价：<strong>0元</strong></li>
+<a href='/web_top/a/sp/2014/0521/17.html'>Faded glory Women's Cotton rib Tank</a><br/>
+store price：<b>$3.94</b><br/>
+online price：<strong>$2.5</strong></li>
 
 
 
@@ -445,51 +465,51 @@ document.write('<embed src="/web_top/templets/default/images/bcastr3.swf" wmode=
 <!--web_footer-->
 <div class="aboutus"><b class="l"></b>
 <dl>
- <dt>新手上路</dt>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/57.html">用户演示</a></dd>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/58.html">金卡申请</a></dd>
+ <dt>New member</dt>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/57.html">Video</a></dd>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/58.html">VIP member</a></dd>
 </dl>
 <b></b>
   <dl>
-    <dt>付款方式</dt>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/55.html">支付方式</a></dd>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/54.html">支付常见问题</a></dd>
+    <dt>Payment</dt>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/55.html">Modes of payment</a></dd>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/54.html">Questions</a></dd>
   </dl>
   <b></b>
   <dl>
-    <dt>送货方式</dt>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/53.html">配送范围</a></dd>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/52.html">订单处理</a></dd>
+    <dt>Shipping</dt>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/53.html">Free Shipping</a></dd>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/52.html">Free store pick up</a></dd>
   </dl>
   <b></b>
   <dl>
-    <dt>买卖提示</dt>
-    <dd><a href="http://localhost/web_top/member/resetpassword.php">找回密码</a></dd>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/50.html">会员细则</a></dd>
+    <dt>Buying and selling</dt>
+    <dd><a href="http://localhost/web_top/member/resetpassword.php">Forgot password</a></dd>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/50.html">Member rules</a></dd>
   </dl>
   <b></b>
   <dl>
-    <dt>退换货</dt>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/49.html">退还原则</a></dd>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/48.html">退换货流程</a></dd>
+    <dt>Return or replace items</dt>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/49.html">Your Account</a></dd>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/48.html">Browse all topics</a></dd>
   </dl>
   <b></b>
   <dl>
-    <dt>联系我们</dt>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/46.html">公司简介</a></dd>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/59.html">联系我们</a></dd>
-    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/47.html">英才加入</a></dd>
+    <dt>contact us</dt>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/46.html">E-mail Customer service</a></dd>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/59.html">Call Customer service</a></dd>
+    <dd><a href="http://localhost/web_top/a/bgs/2014/0523/47.html">Jobs</a></dd>
   </dl>
 <b class="r"></b>
 </div>
 <!--web_footer-->
 <!--友情链接-->
 <div class="youqinglianjie">
-  <h2> <span><a href="plus/flink_add.php">申请连接</a>&nbsp;&nbsp; <a href="plus/flink.php">查看更多友情链接</a></span>友情链接</h2>
-  <ul><li><a href='http://www.dedecms.com' target='_blank'>织梦CMS官方</a> </li><li><a href='http://docs.dedecms.com/' target='_blank'>DedeCMS维基手册</a> </li><li><a href='http://bbs.dedecms.com' target='_blank'>织梦技术论坛</a> </li> </ul>
+  <h2> <span><a href="plus/flink_add.php">Apply Links</a>&nbsp;&nbsp; <a href="plus/flink.php">View Links</a></span>Links</h2>
+  <ul><li><a href='http://www.dedecms.com' target='_blank'>Jie Xu shop</a> </li><li><a href='http://docs.dedecms.com/' target='_blank'>Readme</a> </li><li><a href='http://bbs.dedecms.com' target='_blank'>BBS</a> </li> </ul>
 </div>
 <!--版权信息-->
-<div class="banquan"> 京备号：25255225&#160;5 技术支持：后盾网&#160;浏览量：00001000 京ICP备2000152205-7 </div>
+<div class="banquan"> Pin：25255225&#160;5Service：Jie Xu shop&#160;Reviews：00001000 ICP2000152205-7 </div>
 
 </body>
 </html>
